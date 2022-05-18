@@ -1,4 +1,4 @@
-# Base2 01 encoding
+# Base2 - 01 encoding
 
 - Base2 library
 - ES module for web and [Deno](https://deno.land)
