@@ -7,10 +7,6 @@
 
 "0" or "1"
 
-## sample app
-
-https://code4fukui.github.io/Base2/
-
 ## usage
 
 ```js
@@ -21,6 +17,16 @@ console.log(Base2.decode("00000001000000101111111011111111"));
 
 console.log(Base2.encode(new TextEncoder().encode("IchigoJam")));
 console.log(new TextDecoder().decode(Base2.decode("010010010110001101101000011010010110011101101111010010100110000101101101")));
+```
+
+## sample app
+
+https://code4fukui.github.io/Base2/
+
+## test
+
+```
+deno test
 ```
 
 ## sample implementation in IchigoJam BASIC
