@@ -1,11 +1,20 @@
-# Base2 - 01 encoding
+# Base2 - 01 エンコーディング
 
-## Features
-- Encode and decode binary data to/from a string of "0" and "1" characters.
-- Simple API with `encode` and `decode` functions.
-- Compatible with both web and Deno environments.
+- Base2ライブラリ
+- Web及び[Deno](https://deno.land)向けのESモジュール
 
-## Usage
+## デモ
+
+https://code4fukui.github.io/Base2/
+
+## 機能
+
+- バイナリデータの"0"と"1"からなる文字列への変換と復元
+- 簡単な`encode`及び`decode`関数によるAPI
+- Webとデノ環境の両方に対応
+
+## 使い方
+
 ```js
 import { Base2 } from "https://code4fukui.github.io/Base2/Base2.js";
 
@@ -16,13 +25,6 @@ console.log(Base2.encode(new TextEncoder().encode("IchigoJam")));
 console.log(new TextDecoder().decode(Base2.decode("010010010110001101101000011010010110011101101111010010100110000101101101")));
 ```
 
-## Demo
-https://code4fukui.github.io/Base2/
+## ライセンス
 
-## Testing
-```
-deno test
-```
-
-## License
 MIT License
