@@ -1,5 +1,7 @@
 # Base2 - 01 encoding
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 ## Features
 - Encode and decode binary data to/from a string of "0" and "1" characters.
 - Simple API with `encode` and `decode` functions.
